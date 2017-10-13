@@ -11,7 +11,7 @@ nginx-proxy:
     - 80:80
     - 443:443
   environment:
-    - DEFAULT_HOST=plex.three-five.bshaw.io
+    - DEFAULT_HOST=plex.bshaw.io
 letsencrypt:
   # image:  jrcs/letsencrypt-nginx-proxy-companion
   image: alastaircoote/docker-letsencrypt-nginx-proxy-companion
